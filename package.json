@@ -1,12 +1,12 @@
 {
-  "name": "etl",
-  "version": "0.6.12",
+  "name": "jm-etl",
+  "version": "0.0.1",
   "description": "Collection of stream-based components that form an ETL pipeline",
   "main": "index.js",
-  "author": "Ziggy Jonsson (http://github.com/zjonsson/)",
+  "author": "James Murray (http://github.com/JmurrayJr/)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ZJONSSON/node-etl"
+    "url": "http://github.com/JmurrayJr/node-etl"
   },
   "scripts": {
     "test": "docker-compose -p etl up -d --no-recreate;docker exec -it etl_runner_1 bash ./test.sh",
