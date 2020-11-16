@@ -1,6 +1,6 @@
 {
   "name": "jm-etl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of stream-based components that form an ETL pipeline",
   "main": "index.js",
   "author": "James Murray (http://github.com/JmurrayJr/)",
